@@ -1,0 +1,9 @@
+{"title":"Chart",
+  "viztype":"stacked_column",
+  "vizproperties":{},
+  "data":[{"month":"Jan-2017","plncost":"1000","actcost":"1200","varcost":"200"},{"month":"Feb-2017","plncost":"900","actcost":"800","varcost":"-100"},{"month":"Mar-2017","plncost":"1300","actcost":"1200","varcost":"100"}],
+  "feeds":[{"type":"Dimension","uid":"categoryAxis","values":"Period"},{"type":"Measure","uid":"valueAxis","values":"Plan"},{"type":"Measure","uid":"valueAxis","values":"Actual"},{"type":"Measure","uid":"valueAxis","values":"Variance"}],
+  "dimensions":[{"name":"Period","value":"month"}],
+  "measures":[{"name":"Plan","value":"plncost"},{"name":"Actual","value":"actcost"},{"name":"Variance","value":"varcost"}],
+  "tabledefinition":[{"name":"Period","value":"month","align":"Left"},{"name":"Actual","value":"actcost","align":"Right"},{"name":"Plan","value":"plncost","align":"Right"},{"name":"Variance","value":"varcost","align":"Right"}]
+ }
